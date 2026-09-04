@@ -1,0 +1,99 @@
+/* Universal Selector 
+   * = all
+   */
+* {
+    /* CSS Reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Type Selector */
+h1 {
+    font-family: "Tahoma", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+body {
+    /* background-color: skyblue; */
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP._0kH5nXQXDXiY4SWw2XpiwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* . = Class Selector */
+.nav-link {
+    font-size: 18px;
+}
+
+.title {
+    /* color: green; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* px = relative to the screen pixels of our device */
+/* rem = relative to the root element */
+/* root element default font size is 16px */
+/* 1rem = 16px; 2rem = 32px */
+
+#hello {
+    color: black;
+    font-size: 2rem;
+}
+
+#logo {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.moduleCard {
+    height: 350px;
+    width: 800px;
+    /* spacing between content and border */
+    padding: 50px;
+    border: 1px solid black;
+    background-color: white;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+    /* distributes the remaining spaces equally to left and right */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moduleImage {
+    width: 200px
+}
+
+#modules {
+    /* space between elements */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
